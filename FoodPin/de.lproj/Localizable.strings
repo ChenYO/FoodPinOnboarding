@@ -1,0 +1,24 @@
+/* Camera */
+"Camera" = "Kamera";
+
+/* Choose your photo source */
+"Choose your photo source" = "Wähle deine Fotoquelle";
+
+/* Delete */
+"Delete" = "Löschen";
+
+/* Photo library */
+"Photo library" = "Fotothek";
+
+/* Search restaurants... */
+"Search restaurants..." = "Restaurants suchen...";
+
+/* Share */
+"Share" = "Aktie";
+
+/* Tell us your feedback */
+"Tell us your feedback" = "Erzählen Sie uns Ihr Feedback";
+
+/* Input error message */
+"We can't proceed because one of the fields is blank. Please note that all fields are required." = "Es tut uns leid, Sie haben nicht alle Felder ausgefüllt. Bitte beachten Sie, dass alle Felder erforderlich sind.";
+
