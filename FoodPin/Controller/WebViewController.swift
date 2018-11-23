@@ -30,10 +30,12 @@ class WebViewController: UIViewController {
 //
 //        bgImage.alpha = 0.3
         
+        //使用UIView作為水浮印的底圖
         let bgView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
         bgView.isUserInteractionEnabled = false
         bgView.alpha = 0.05
       
+        //設定水浮印文字
         for x_index in 1...20 {
             for y_index in 1...10 {
                 let label = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 20))
@@ -55,6 +57,7 @@ class WebViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // 使用image來實現水浮印
     func textToImage(drawText text: String , inImage image: UIImage, atPoint point: CGPoint) -> UIImage {
         let textColor = UIColor.black
         let textFont = UIFont(name: "Helvetica Bold", size: 20)!
